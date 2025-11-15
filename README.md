@@ -11,10 +11,24 @@ Este repositório contém os códigos e notebooks utilizados para treinar e aval
 ## 🚀 Como abrir no Google Colab
 Você pode abrir o notebook diretamente no Colab clicando no link abaixo:
 
-[![Abrir no Colab]()
+[![Abrir no Colab](https://colab.research.google.com/github/HaruoArai/trabalho2-completo-ia/blob/main/IA2.ipynb)
 
 ## ⚙️ Como rodar os scripts no Colab
 1. Clone este repositório dentro do Colab:
    ```python
    !git clone https://github.com/HaruoArai/trabalho2-completo-ia-colab
    %cd trabalho2-completo-ia-colab
+
+   2. Instale as dependências necessárias::
+   !pip install torch torchvision torchaudio transformers pandas scikit-learn matplotlib
+
+   3. Execute os scripts:
+   !python data_prep.py
+   !python train_bert.py onca
+   !python evaluate_bert.py onca
+
+   ## 📌 Categorias disponíveis
+   - onca → análise de sentimentos (Negativo, Neutro, Positivo).
+   - caseiro → análise de sentimentos (Negativo, Neutro, Positivo).
+   - fakenews → classificação binária (Não, Sim).
+
