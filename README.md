@@ -26,9 +26,9 @@ Você pode abrir o notebook diretamente no Colab clicando no link abaixo:
    !python data_prep.py
    !python train_bert.py onca
    !python evaluate_bert.py onca
-
-   ## 📌 Categorias disponíveis
-   - onca → análise de sentimentos (Negativo, Neutro, Positivo).
-   - caseiro → análise de sentimentos (Negativo, Neutro, Positivo).
-   - fakenews → classificação binária (Não, Sim).
+   
+## 📌 Categorias disponíveis
+- onca → análise de sentimentos (Negativo, Neutro, Positivo).
+- caseiro → análise de sentimentos (Negativo, Neutro, Positivo).
+- fakenews → classificação binária (Não, Sim).
 
