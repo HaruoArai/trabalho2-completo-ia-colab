@@ -19,13 +19,13 @@ Você pode abrir o notebook diretamente no Colab clicando no link abaixo:
    !git clone https://github.com/HaruoArai/trabalho2-completo-ia-colab
    %cd trabalho2-completo-ia-colab
 
-   2. Instale as dependências necessárias::
-   !pip install torch torchvision torchaudio transformers pandas scikit-learn matplotlib
+2. Instale as dependências necessárias::
+!pip install torch torchvision torchaudio transformers pandas scikit-learn matplotlib
 
-   3. Execute os scripts:
-   !python data_prep.py
-   !python train_bert.py onca
-   !python evaluate_bert.py onca
+3. Execute os scripts:
+!python data_prep.py
+!python train_bert.py onca
+!python evaluate_bert.py onca
    
 ## 📌 Categorias disponíveis
 - onca → análise de sentimentos (Negativo, Neutro, Positivo).
