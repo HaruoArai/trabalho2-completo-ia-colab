@@ -11,7 +11,7 @@ Este repositório contém os códigos e notebooks utilizados para treinar e aval
 ## 🚀 Como abrir no Google Colab
 Você pode abrir o notebook diretamente no Colab clicando no link abaixo:
 
-[![Abrir no Colab](https://colab.research.google.com/github/HaruoArai/trabalho2-completo-ia/blob/main/IA2.ipynb)
+[![Abrir no Colab](https://colab.research.google.com/drive/1RHXdUNNS-gfM4hNj-eZABeYatCr1pCcV?usp=sharing)
 
 ## ⚙️ Como rodar os scripts no Colab
 1. Clone este repositório dentro do Colab:
@@ -23,11 +23,16 @@ Você pode abrir o notebook diretamente no Colab clicando no link abaixo:
    ```python
    !pip install torch torchvision torchaudio transformers pandas scikit-learn matplotlib
 
+3. Coloque o arquivo de comentários:
+- Faça upload do arquivo **oncas_comentarios.csv** para dentro da pasta do repositório (trabalho2-completo-ia-colab).
+
+- ⚠️ Observação: este arquivo **não é o original fornecido pelo professor**. Trata-se de um **modelo adaptado**, contendo apenas as três classes solicitadas: **onça, caseiro e fakenews.**
+
 4. Execute os scripts:
    ```python
    !python data_prep.py
-   !python train_bert.py onca
-   !python evaluate_bert.py onca
+   !python train_bert.py 
+   !python evaluate_bert.py 
    
 ## 📌 Categorias disponíveis
 - onca → análise de sentimentos (Negativo, Neutro, Positivo).
