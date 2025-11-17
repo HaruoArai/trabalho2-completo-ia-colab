@@ -11,7 +11,7 @@ Este repositório contém os códigos e notebooks utilizados para treinar e aval
 ## 🚀 Como abrir no Google Colab
 Você pode abrir o notebook diretamente no Colab clicando no link abaixo:
 
-[![Abrir no Colab](https://colab.research.google.com/drive/1RHXdUNNS-gfM4hNj-eZABeYatCr1pCcV?usp=sharing)
+[Abrir no Colab](https://colab.research.google.com/drive/1RHXdUNNS-gfM4hNj-eZABeYatCr1pCcV?usp=sharing).
 
 ## ⚙️ Como rodar os scripts no Colab
 1. Clone este repositório dentro do Colab:
